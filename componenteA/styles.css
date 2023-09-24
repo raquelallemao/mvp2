@@ -1,0 +1,131 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    color: #343434;
+    font-size: 12px;
+  }
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+  }
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+header {
+    background-color: #A8E5E2;
+    padding: 15px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+  }
+
+li {
+    display: inline;
+    margin: 0;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    padding: 5px;
+  }
+
+.newItem {
+    background-color: #fbcffc;
+    padding: 20px 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border: 1px solid #be79df;
+}
+
+.items {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.close{
+    text-align: center;
+}
+
+.close:hover {
+    color: #be79df;
+    font-weight: bolder;
+}
+
+button {
+    margin-left: 15px;
+    background-color: #cbcbcb;
+    border-radius: 4px;
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #be79df;
+    border-collapse: collapse;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 14px;
+    text-align: start;
+}
+
+th {
+    background-color: #fbcffc;
+}
+
+table {
+    background-color: white;
+    width: 70%;
+    padding-top: 20px;
+}
+
+#nome {
+    width: 20%;
+}
+
+#excluir {
+    width: 20px;
+}
+
+#rua {
+    width: 20%;
+}
+
+#acoes {
+    background-color: #be79df;
+}

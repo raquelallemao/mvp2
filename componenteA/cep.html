@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Lista de Pacientes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <h1>Lista de Pacientes</h1>
+          </div>
+          <div class="navbar">
+            <ul>
+                <a href="/Users/gabrielafaria/Desktop/mvp/mvp2/componenteA/index.html"><li>Home</li></a>
+                <a href="/Users/gabrielafaria/Desktop/mvp/mvp2/componenteA/cep.html" class="active"><li>Consultar CEP</li></a>
+            </ul>
+          </div>
+    </header>
+
+    <form method="get" action=".">
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+        <label>Rua:
+        <input name="rua" type="text" id="rua" size="60" /></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf" size="2" /></label><br />
+        <label>IBGE:
+        <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+      </form>
+      
+    <script src="/Users/gabrielafaria/Desktop/mvp/mvp2/componenteB/api.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
